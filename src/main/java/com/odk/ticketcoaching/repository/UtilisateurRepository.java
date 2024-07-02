@@ -1,7 +1,7 @@
-package com.odk.ticketCoach.Repository;
+package com.odk.ticketcoaching.repository;
 
-import com.odk.ticketCoach.Entity.Enum.Roles;
-import com.odk.ticketCoach.Entity.Utilisateur;
+import com.odk.ticketcoaching.entity.Enum.Roles;
+import com.odk.ticketcoaching.entity.Utilisateur;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
@@ -12,5 +12,4 @@ public interface UtilisateurRepository extends JpaRepository<Utilisateur, Intege
 
     List<Utilisateur> findByRole(Roles role);
     Utilisateur findByUsername(String username);
-
 }

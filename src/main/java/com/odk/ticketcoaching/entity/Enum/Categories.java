@@ -1,4 +1,4 @@
-package com.odk.ticketCoach.Entity.Enum;
+package com.odk.ticketcoaching.entity.Enum;
 
 public enum Categories {
     TECHNIQUE,

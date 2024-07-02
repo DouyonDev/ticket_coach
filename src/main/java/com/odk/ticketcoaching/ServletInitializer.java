@@ -1,4 +1,4 @@
-package com.odk.ticketCoach;
+package com.odk.ticketcoaching;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
@@ -7,7 +7,7 @@ public class ServletInitializer extends SpringBootServletInitializer {
 
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-		return application.sources(TicketCoachApplication.class);
+		return application.sources(TicketCoachingApplication.class);
 	}
 
 }
